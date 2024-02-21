@@ -345,11 +345,7 @@ display: none;
     color: var(--bg-color);
 }
 
-@media(max-width:1200px) {
-    html {
-        font-size: 55%;
-    }
-}
+
 
 
  @media(max-width:600px) {
@@ -357,6 +353,9 @@ display: none;
     section {
         padding: 4px;
     }
+     body{
+         overflow:hidden;
+     }
 
     .home {
         flex-direction: column-reverse;
